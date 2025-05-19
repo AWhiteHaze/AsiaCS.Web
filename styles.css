@@ -1,4 +1,4 @@
-* {
+* {min-width: auto;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -12,6 +12,7 @@
             }
         }
         .Animationin{
+            text-align: center;
             from{
                 transform: translateY(-300px)
             }
@@ -20,23 +21,33 @@
             }
             animation: Animationin 0.6s ease-in ;
         }
+     
+        
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
-            background-image: linear-gradient(to right, #005f73, #0a9396, #94d2bd, #ee9b00, #ca6702);
+            background-image: url(img/architecture-3592318_1920.jpg);
+            background-size: cover;
+            background-position: center;
+        
         }
-        header, nav, main, section, footer {
+        nav, main, section, footer {
             display: block;
             margin: 0 auto;
             max-width: 1200px;
             padding: 20px;
+            
         }
         header {
-            background: #005f73;
+            background-color: transparent ;
             color: #fff;
             border-radius: 0 0 8px 8px;
+            display: block;
+            margin: 0 auto;
+            max-width: 1900px;
+            padding: 20px;
         }
         header h1 {
             font-size: 3rem;
@@ -72,14 +83,11 @@
         footer {
             text-align: center;
             font-size: 0.9rem;
-            color: #777;
+            color: #fafafa;
             margin-top: 40px;
+            background-color: transparent;
         }
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-            }
-        }
+      
  
    
   .lado {
@@ -90,7 +98,9 @@
     
   }
   .estilo-lado {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;;
     flex: 1;                        
     padding: 10px;
     background: #a3a0a0;
@@ -103,7 +113,7 @@
     padding: 10px;
     border-radius: 20px;
     background-color: #0a9396;
-    box-shadow: 3px 12px 30px #0a9396; ;
+    box-shadow: 5px 12px 30px #0a9396; ;
   }
  
   .texto-img{
@@ -135,9 +145,13 @@
         max-width: 5%;
         height: auto;
       }
+
 @media only screen and (max-width: 1080px){
     body{
         flex-wrap: wrap;
+        background-image: url(img/architecture-3592318_1920.jpg);
+        background-size: cover;
+        background-position: center;
     }
     .texto-img{
         flex-direction: column;
