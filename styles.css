@@ -135,9 +135,14 @@
         max-width: 5%;
         height: auto;
       }
-    @media (max-width: 1080px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
+@media only screen and (max-width: 1080px){
+    body{
+        flex-wrap: wrap;
+    }
+    .texto-img{
+        flex-direction: column;
+        align-items: center;
+        gap: 0px; 
+    }
 }
+    
