@@ -82,7 +82,7 @@
         }
  
    
- .lado {
+  .lado {
     
     display: flex;               
     justify-content: space-between;
@@ -99,14 +99,17 @@
     
   }
   .estilo-lado:hover{
-    background-image: linear-gradient(to right, #ca6702, #ee9b00, #d6b937, #968d0a, #734f00);
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #0a9396;
+    box-shadow: 3px 12px 30px #0a9396; ;
   }
  
   .texto-img{
     display: flex;
     align-items: center;
-    gap: 40px; 
-    flex-wrap: wrap;
+    gap: 80px; 
 
   }
   
@@ -115,7 +118,7 @@
     .texto-img img{
         float: right;
         margin-left: 20px;
-        max-width: 100%;
+        max-width: 300px;
         height: auto;
         
     }
@@ -129,7 +132,7 @@
       .img2{
         float: left;
         margin-right: 20px;
-        max-width: 80px;
+        max-width: 5%;
         height: auto;
       }
     @media (max-width: 1080px) {
