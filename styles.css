@@ -31,7 +31,8 @@
             background-image: url(img/architecture-3592318_1920.jpg);
             background-size: cover;
             background-position: center;
-        
+            image-resolution: from-image;
+            background-attachment: fixed;
         }
         nav, main, section, footer {
             display: block;
@@ -48,10 +49,11 @@
             margin: 0 auto;
             max-width: 1900px;
             padding: 20px;
+           
         }
         header h1 {
             font-size: 3rem;
-            text-aling: center;
+            text-align: center;
         }
         nav ul {
             list-style: none;
@@ -95,7 +97,12 @@
     
     display: flex;               
     justify-content: space-between;
-    gap: 20px;     
+    gap: 20px;    
+    flex-wrap: wrap;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px; 
+            text-align: center;
     
   }
   .estilo-lado {
@@ -107,7 +114,8 @@
     background: #a3a0a0;
     border-radius: 20px;
     transition: all 0.5s;
-    
+    gap: 80px; 
+
   }
   .estilo-lado:hover{
     flex: 1;
@@ -121,7 +129,10 @@
     display: flex;
     align-items: center;
     gap: 80px; 
-
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
 
@@ -159,5 +170,6 @@
         align-items: center;
         gap: 0px; 
     }
+    
 }
     
