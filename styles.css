@@ -233,3 +233,13 @@ justify-content: center;
     max-width: 1200px;
     text-align: center;
 }
+p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-size-adjust: auto;
+    margin-top: 20px;
+    max-width: 10000px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
