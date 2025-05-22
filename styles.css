@@ -224,13 +224,11 @@ justify-content: center;
     display: flex;
 }
 iframe{
+    width: 100%;
+    height: 100%;
 }
-flex-direction: column;
-align-items: center;
-gap: 0px;
-text-size-adjust: auto;
-margin-top: 20px;
 }
+
 .centerimg{
     justify-content: center;
     align-items: center;
@@ -249,5 +247,3 @@ p{
     align-items: center;
     display: flex;
 }
-
-    
